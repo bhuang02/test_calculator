@@ -1,6 +1,6 @@
 name: test-OpsDev-CI
 run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
-on: [push, fork]
+on: [pull, push, fork]
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
