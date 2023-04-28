@@ -15,4 +15,6 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Build the docker image
-      run: docker build . --file Dockerfile --tag calculator:$(date +%s)
+      run: docker build . --file Dockerfile --tag calculator
+    - name: push to Docker repo
+      run: docker push bhuang02/opsdev-calculator:calculator
