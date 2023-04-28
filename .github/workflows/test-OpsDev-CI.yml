@@ -2,7 +2,6 @@ name: test-OpsDev-CI
 run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
 on: [push, fork, workflow_dispatch]
 
-
 jobs:
   build:
 
