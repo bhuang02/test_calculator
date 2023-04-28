@@ -17,4 +17,4 @@ jobs:
     - name: Build the docker image
       run: docker build . --file Dockerfile --tag opsdev-calculator
     - name: push to Docker repo
-      run: docker push bhuang02/opsdev-calculator:latest
+      run: docker push bhuang02/opsdev-calculator:opsdev-calculator
